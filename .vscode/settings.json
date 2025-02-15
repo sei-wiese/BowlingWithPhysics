@@ -58,6 +58,7 @@
     },
     "dotnet.defaultSolution": "BowlingWithPhysics.sln",
     "cSpell.words": [
-        "Behaviour"
+        "Behaviour",
+        "Cinemachine"
     ]
 }
