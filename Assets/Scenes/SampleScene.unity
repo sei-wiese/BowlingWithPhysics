@@ -258,11 +258,11 @@ MonoBehaviour:
   Radius: 10
   Orbits:
     Top:
-      Radius: 2
-      Height: 5
+      Radius: 1
+      Height: 8
     Center:
-      Radius: 4
-      Height: 2.25
+      Radius: 8
+      Height: 5
     Bottom:
       Radius: 2.5
       Height: 0.1
@@ -349,8 +349,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143054815}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09735491, y: -2.3929617e-15, z: 2.0696743e-16, w: 0.99524975}
-  m_LocalPosition: {x: 8.5, y: 1.3157041, z: -3.284091}
+  m_LocalRotation: {x: 0.1519004, y: -0.000000009569959, z: 0.0000000014707475, w: 0.98839587}
+  m_LocalPosition: {x: 8.5, y: 2.2841487, z: -5.137021}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -443,8 +443,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09735491, y: -2.3956394e-15, z: 2.3434043e-16, w: 0.99524975}
-  m_LocalPosition: {x: 8.5, y: 1.3157041, z: -3.284091}
+  m_LocalRotation: {x: 0.15190041, y: -0.00000000956996, z: 0.0000000014707476, w: 0.9883958}
+  m_LocalPosition: {x: 8.5, y: 2.2841487, z: -5.137021}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
