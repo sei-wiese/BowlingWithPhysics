@@ -33,10 +33,10 @@ public class BallController : MonoBehaviour
         // now your if check can be framed like a sentence
         // "if ball is launched, then simply return and do nothing"
         if (isBallLaunched)
-    {
+        {
         Debug.Log("[BallController] Already launched, skip.");
         return;
-    }
+        }
 
         // if (isBallLaunched) return;
         // "now that the ball is not launched, set it to true and launch the ball"
