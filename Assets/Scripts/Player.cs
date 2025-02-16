@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     //Only difference being, we only listen to Left and Right inputs
     private void MovePlayer(Vector2 direction)
     {
+        // Debug.Log($"[Player] MovePlayer called, direction={direction}");
         Vector3 moveDirection = new(direction.x, 0f, direction.y);
         rb.AddForce(speed * moveDirection);
     

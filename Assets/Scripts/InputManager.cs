@@ -10,8 +10,11 @@ public class InputManager : MonoBehaviour
 
     private void Update()
     {
+        // Debug.Log($"[InputManager] Update - Time.frameCount: {Time.frameCount}");
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("[InputManager] Space Key Down");
             OnSpacePressed?.Invoke();
         }
 
@@ -24,10 +27,17 @@ public class InputManager : MonoBehaviour
         {
             input += Vector2.right;
         }
+        if (input != Vector2.zero)
+        {
+            Debug.Log($"[InputManager] OnMove Invoke: {input}");
+        }
+
         OnMove?.Invoke(input);
 
         if (Input.GetKeyDown(KeyCode.R))
         {
+            Debug.Log("[InputManager] R Key Down");
+
             OnResetPressed?.Invoke();
         }
     }
